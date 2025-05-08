@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore all files in the data/ directory
+data/*
+
+# But do not ignore this README (or any instruction files)
+!data/README.md
