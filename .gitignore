@@ -3,8 +3,10 @@
 .RData
 .Ruserdata
 
-# Ignore all files in the data/ directory
+# Ignore all files in the data/ and figures/ directory
 data/*
+figures/*
 
-# But do not ignore this README (or any instruction files)
+# But do not ignore the READMEs in these directories (or any instruction files)
 !data/README.md
+!figures/README.md
