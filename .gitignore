@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 
 # Ignore all files in the data/ and figures/ directory
 data/*
