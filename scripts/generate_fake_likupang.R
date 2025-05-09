@@ -26,9 +26,9 @@ fake_likupang <- tibble(
   total_meetings_implemented = rpois(n, lambda = 4)
 )
 
-# Ensure no negative populations
+# Ensure no pop is below 100
 fake_likupang <- fake_likupang %>%
-  mutate(population = ifelse(population < 0, 0, population))
+  mutate(population = ifelse(population < 100, 100, population))
 
 # Save to data/ directory
 write_csv(fake_likupang, here("data", "fake_likupang.csv"))
