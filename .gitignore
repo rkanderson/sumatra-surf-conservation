@@ -4,10 +4,12 @@
 .Ruserdata
 .DS_Store
 
-# Ignore all files in the data/ and figures/ directory
+# Ignore all files in the data, figures, and outputs directories
 data/*
 figures/*
+outputs/*
 
 # But do not ignore the READMEs in these directories (or any instruction files)
 !data/README.md
 !figures/README.md
+!outputs/README.md
